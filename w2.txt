@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	setlocale(0, "");
+	double num1, num2;
+	cout << " Введите число: ";
+	cin >> num1;
+	cout << " Введите второе число: ";
+	cin >> num2;
+	//Введение ддвух чисел пользователем
+	double a = (num1 + num2) / 2;
+	cout << " Среднее арифметическое: " << a << endl;
+
+	return 0;
+}
