@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(0, "");
+	int num;
+	cout << "Введите число:";
+	cin >> num;
+	//введенное число пользователем
+	int s = num * num;
+	cout << " Квадрат введённого Вами числа: " << s << endl;
+	//Вычисление куба введённого числа пользователем
+	int c = num * num * num;
+	cout << " Куб введённого Вами числа: " << c << endl;
+
+	return 0;
+}
